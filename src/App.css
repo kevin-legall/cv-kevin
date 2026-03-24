@@ -1,0 +1,138 @@
+main {
+    width: 90%;
+    min-height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #7c3aed, #a855f7);
+    width: 10%;
+    margin: 0 auto;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
+}
+
+.main-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-button:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 28px rgba(124, 58, 237, 0.45);
+}
+
+.main-button:active {
+    transform: translateY(0px) scale(0.98);
+    box-shadow: 0 2px 12px rgba(124, 58, 237, 0.3);
+}
+
+.main-title-debut {
+    text-align: center;
+    font-size: 7rem;
+    padding: 1rem;
+    line-height: normal;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    line-height: normal;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description p {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.qualites-defauts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qualites-defauts p {
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2rem;
+
+}
+
+ul li {
+    text-align: left;
+
+}
+
+.criteres {
+    display: flex;
+    justify-content: space-around;
+}
+
+.criteres p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.image {
+    width: 23rem;
+}
+
+.centres-interet {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flip-card {
+    margin: 5px;
+}
+
+.mini-text {
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+.notes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.notes button {
+    background: linear-gradient(to right, #7c3aed, #a855f7);
+    border: none;
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
+}
